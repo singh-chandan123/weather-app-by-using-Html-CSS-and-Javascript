@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app using html  css and javascript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="card">
+    <div class="search">
+        <input type="text" class="inputbox" placeholder="enter city name" spellcheck="false">
+        <button class="buton" ><img src="/images.html/search.png" alt=""></button>
+    </div>
+<!-- check error of city -->
+<div id="errordata">
+    <p class="errortext">invalid city name</p>
+</div>
+
+<div class="optionalpart">
+    <!-- //2nd div -->
+    <div class="temp">
+        <img class="imagess" src="/images.html/rain.png" >
+        <h1 class="temperature">7° c</h1>
+        <p class="city-name">New York</p>
+    </div>
+    <!-- 3rd column -->
+    <div class="twocol">
+        <div class="firstcol">
+            <div class="firstcolimg">
+                <img src="/images.html/humidity.png" alt="">
+            </div>
+            <div class="firstcolprt">
+                <h3 class="humidity-per">48%</h3>
+                <p>Humidity</p>
+            </div>
+        </div>
+        
+        <div class="secondcol">
+            <div class="secondcolimg">
+                <img src="/images.html/wind.png" alt="">
+            </div>
+            <div class="secondcolprt">
+                <h3 class="wind-speed">10.29 Km/h</h3>
+                <p>Wind Speed</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

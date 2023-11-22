@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif,'Poppins';
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(24, 26, 26);
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-top: 70px;
+    width: 450px;
+    color: white;
+    background-color: rgb(44, 151, 167);
+    border: none;
+    border-radius: 20px;
+   height: 70vh;
+}
+.search{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.search input{
+    height: 50px;
+    width: 280px;
+    border-radius: 30px;
+    border: none;
+    padding-left: 30px;
+   font-size: 19px;
+}
+::placeholder{
+    color: rgb(34, 0, 255);
+}
+
+.buton {
+/* margin-left: 20px; */
+padding: 20px 20px;
+border-radius: 50%;
+margin-right: 10px;
+height: 60px;
+border: none;
+}
+.buton img{
+    height: 20px;
+    width: 20px;
+}
+.temp{
+    text-align: center;
+    margin-top: -30px;
+}
+.temp img{
+    height: 120px;
+    width: 120px;
+}
+.temp h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.temp p{
+    font-size: 40px;
+    font-weight: 400;
+}
+.twocol{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.firstcol{
+    display: flex;
+    gap: 20px;
+}
+.secondcol{
+    display: flex;
+
+}
+.firstcolimg img{
+    height: 50px;
+}
+.firstcolprt h3{
+    margin-bottom: 7px;
+    
+}
+.firstcolprt p{
+    font-weight: 400;
+}
+
+
+.secondcol{
+    display: flex;
+    gap: 20px;
+}
+.firstcol{
+    display: flex;
+
+}
+.secondcolimg img{
+    height: 50px;
+}
+.secondcolprt h3{
+    margin-bottom: 7px;
+    
+}
+.secondcolprt p{
+    font-weight: 400;
+}
+#errordata{
+    margin-left: 35px;
+    display: none;
+    font-size: 25px;
+    color: red;
+    
+}
+.optionalpart{
+    display: none;
+}
